@@ -6,7 +6,7 @@ import time
 
 BROKER_URL = "https://bi-data.sonatgame.com/druid/v2/sql"
 
-token = 'aHVuZ25kQHNvbmF0LnZuOkh1bmdOVkRBQGtqZjg0amQ2Mzk='
+token = 'TOKEN'
 output_csv = "query_results.csv"
 query_file = "./base_query.sql"
 
