@@ -41,7 +41,7 @@ def fetch_data(query):
     try:
         response = requests.post(BROKER_URL, headers=headers, data=json.dumps({"query": query}))
         if response.status_code == 200:
-            return response.json()  # Adjust based on API response structure
+            return response.json() 
         else:
             print(f"Error {response.status_code}: {response.text}")
             return []
